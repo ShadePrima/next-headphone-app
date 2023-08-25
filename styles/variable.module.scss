@@ -1,5 +1,6 @@
 //color
 $red-color: #ff6565;
+$white-color: #ffffff;
 
 //background
 $background: #f5f4f4;
@@ -10,4 +11,7 @@ $background: #f5f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@mixin flexBetween() {
 }

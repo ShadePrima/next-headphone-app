@@ -1,0 +1,27 @@
+.main {
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 32px 15px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media (max-width: 425px) {
+    gap: 24px;
+    justify-content: center;
+  }
+}
+
+.nav {
+  gap: 41px;
+}
+
+.navItem {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
