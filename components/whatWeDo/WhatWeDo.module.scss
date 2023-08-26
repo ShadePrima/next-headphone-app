@@ -1,0 +1,48 @@
+@import '../../styles/variable.module.scss';
+
+.main {
+  max-width: 1032px;
+  padding: 0 15px;
+  margin: 80px auto 0;
+}
+
+.content {
+  max-width: 637px;
+  min-height: 184px;
+
+  margin: 0 auto;
+}
+
+.title {
+  color: $black-color;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text {
+  margin-top: 40px;
+
+  color: $black-color;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.itemContainer {
+  margin-top: 97px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 58px;
+
+  @media (max-width: 1031px) {
+    gap: 60px;
+  }
+}
