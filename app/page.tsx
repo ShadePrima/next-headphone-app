@@ -1,4 +1,4 @@
-import { Contact, Header, Results, WhatWeDo } from '@/components'
+import { Contact, Footer, Header, Results, WhatWeDo } from '@/components'
 import styles from './page.module.scss'
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <WhatWeDo />
       <Results />
       <Contact />
+      <Footer />
     </main>
   )
 }

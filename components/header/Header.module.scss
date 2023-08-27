@@ -52,4 +52,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+
+  @media (max-width: 425px) {
+    padding-bottom: 42px;
+  }
 }

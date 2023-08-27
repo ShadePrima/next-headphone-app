@@ -1,0 +1,30 @@
+@import '../../styles/variable.module.scss';
+
+.main {
+  min-height: 249px;
+  background-color: $black-color;
+}
+
+.content {
+  max-width: 1030px;
+  padding: 90px 15px 39px;
+  margin: 0 auto;
+}
+
+.logoRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  margin-top: 75px;
+
+  color: $white-color;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  text-align: center;
+}
