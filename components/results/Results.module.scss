@@ -1,0 +1,65 @@
+@import '../../styles/variable.module.scss';
+
+.main {
+  min-height: 650px;
+
+  background-image: url('/images/background-result-lg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 768px) {
+    background-image: url('/images/background-result-md.png');
+  }
+
+  @media (max-width: 425px) {
+    background-image: url('/images/background-result-sm.png');
+    background-position: 0 0;
+  }
+}
+
+.content {
+  max-width: 1018px;
+  padding: 141px 15px 79px;
+  margin: 0 auto;
+}
+
+.title {
+  color: $white-color;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.text {
+  max-width: 637px;
+  margin: 40px auto 0;
+
+  color: $white-color;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.poligonContainer {
+  margin-top: 56px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 76px;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    margin: 76px auto 53px;
+    max-width: 456px;
+  }
+
+  @media (max-width: 425px) {
+    gap: 42px;
+  }
+}
